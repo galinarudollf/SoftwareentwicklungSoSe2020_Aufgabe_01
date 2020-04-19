@@ -4,7 +4,7 @@ name: Evaluate correctness of Temperature.cs
 on:
   push:
     paths:
-    - 'Aufgabe_3.Temperature.cs'
+    - 'Aufgabe_3/Temperature.cs'
 
 jobs:
   build:
