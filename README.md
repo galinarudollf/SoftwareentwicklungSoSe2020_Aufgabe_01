@@ -1,12 +1,12 @@
 # SoftwareentwicklungSoSe2020_Aufgabe_00
 
-Beschreibt das Vorgehen für die Implementierung des ersten Hello World Beispiels unter C#
+Beschreibt die Auswahl einer Toolchain, das Vorgehen für die Implementierung des ersten "Hello-World" Beispiels unter C# sowie weitere Einstiegsbeispiele.
 
 ## Idee der Übung
 
 In dieser Übung sollen Sie sich die verschiedenen Möglichkeiten der Erstellung von C# Programmen erarbeiten und diese evaluieren. Dabei sollen Sie verschiedene Editorkonzepte ausprobieren und im Hinblick auf Ihre Anforderungen testen.
 
-Nehmen wir also an, Sie sind der Technologiescout in einem Unternehmen. Nachdem Microsoft seine Strategie bezüglich der Lizenzen von .NET geändert hat, wollen Sie sich einen Überblick verschaffen und testen, welche Tool-Chain für die Anforderungen in Ihrem Unternehmen am geeignetsten ist.
+Nehmen wir also an, Sie sind der Technologie-Scout in einem Unternehmen. Nachdem Microsoft seine Strategie bezüglich der Lizenzen von .NET geändert hat, wollen Sie sich einen Überblick verschaffen und testen, welche Tool-Chain für die Anforderungen in Ihrem Unternehmen am geeignetsten ist.
 
 Um Ihnen eine Richtschnur zu geben, haben wir etwas vorgearbeitet:
 
@@ -18,7 +18,7 @@ Um Ihnen eine Richtschnur zu geben, haben wir etwas vorgearbeitet:
 
 > Wenn Sie Microsoft Studio installiert haben, stehen Ihnen alle Tools auf der Kommandozeile zur Verfügung. Das Video [https://www.youtube.com/watch?v=J1ysuX4lIhc](https://www.youtube.com/watch?v=J1ysuX4lIhc) erläutert, wie Sie die Pfade für den Compiler und die Ausführungsumgebung korrekt setzten. Übersehen Sie dabei die Werbung für kommerzielle Notepad++ Instanzen :-)
 
-**Obrige Auflistung stellt kein Muss dar. Fühlen Sie sich frei eigene Editioren, Kompiler und Ausführungsumgebungen zu verwenden!**
+**Obrige Auflistung stellt kein Muss dar. Fühlen Sie sich frei eigene Editoren, Compiler und Ausführungsumgebungen zu verwenden!**
 
 ## Aufgaben
 
@@ -58,10 +58,10 @@ Verwenden Sie als `culture_specification` `CultureInfo.InvariantCulture`
 und `NumberStyles.AllowDecimalPoint` oder `NumberStyles.Any` als style.
 
 #### 3. Fehler
+
 Im Repository finden Sie im Ordner /Aufgabe 3 ein fehlerhaftes Programm zur Umrechnung der Temperatur von Grad Celsius in Fahrenheit unter Verwendung der Formel: $5 \cdot (Fahrenheit − 32) = 9 \cdot Celsius$
 
-Debuggen Sie den Code!
-
+Debuggen Sie den Code in einem separaten Branch `BugFix`. Dem Repository ist als Action ein automatischer Compiliervorgang zugeordnet, der die Datei `Temperatur.cs` auf sprachliche Korrektheit prüft.
 
 #### 4. Ausdrücke
 
