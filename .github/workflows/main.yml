@@ -1,9 +1,6 @@
-name: Generate activity diagrams
+name: Check Aufgabe_3
 
-on:
-  push:
-    paths:
-    - 'Aufgabe_3.Temperature.cs'
+on: push
 
 jobs:
   build:
@@ -17,4 +14,3 @@ jobs:
         dotnet-version: '3.1.100' # SDK Version to use.
     - name: Compile file
       run: csc Aufgabe_3/Temperature.cs
-
