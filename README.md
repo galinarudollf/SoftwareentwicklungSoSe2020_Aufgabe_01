@@ -1,4 +1,4 @@
-# SoftwareentwicklungSoSe2020_Aufgabe_00
+# SoftwareentwicklungSoSe2020_Aufgabe_01
 
 Beschreibt das Vorgehen für die Implementierung des ersten Hello World Beispiels unter C#
 
