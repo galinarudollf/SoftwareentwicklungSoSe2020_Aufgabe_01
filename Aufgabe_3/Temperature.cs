@@ -1,6 +1,6 @@
 using System;
 
-namespace TemperatureCalc
+namespace TemperatureCalculator
 {
     class Program
     {

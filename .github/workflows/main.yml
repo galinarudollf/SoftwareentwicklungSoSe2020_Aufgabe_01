@@ -1,9 +1,14 @@
-name: Check Aufgabe_3
+name: Evaluate correctness of Temperature.cs
 
-on: push
+# Definition des Triggers - hier eine konkrete Datei
+on:
+  push:
+    paths:
+    - 'Aufgabe_3.Temperature.cs'
 
 jobs:
   build:
+    # Festlegung des Betriebssystems
     runs-on: ubuntu-latest
     steps:
     - name: Check out repository
@@ -11,6 +16,6 @@ jobs:
     - name: Install dotnet 3.1
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '3.1.100' # SDK Version to use.
+        dotnet-version: '3.1.0'
     - name: Compile file
       run: csc Aufgabe_3/Temperature.cs
